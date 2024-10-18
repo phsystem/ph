@@ -56,9 +56,25 @@ body {
     background-color: #007BFF;
 }
 
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.slide {
+    width: 100%;
+    height: auto;
+}
+
+.coluna h3{
+    color: #00ff95;
+    align-items: center;
+}
 .menu h3, .coluna h3 {
     margin-bottom: 10px;
-    color: #272424;
+    color: #00ff95;
+    align-items: center;
 }
 
 .menu ul {
