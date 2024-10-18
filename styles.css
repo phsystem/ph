@@ -27,10 +27,8 @@ body {
 }
 
 .logo-img {
-    width: 80px;
-    height: 80px;
-    border: 1px solid #333; /* Adiciona a borda */
-    
+    width: 100px;
+    height: 100px;   
 }
 .conteudo {
     flex: 3;
