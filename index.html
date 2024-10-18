@@ -1,26 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>PHSystem Tecnolgia</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>WebSite Login</h1>
-        <form id="loginForm">
-            <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Digite seu email" required>
+        <!-- Menu: Menu -->
+        <div class="menu">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="#" onclick="mostrarPagina('coluna2')">Ver Coluna 2</a></li>
+                <li><a href="#" onclick="mostrarPagina('coluna3')">Ver Coluna 3</a></li>
+            </ul>
+        </div>
 
-            <label for="password">Senha:</label>
-            <input type="password" id="password" placeholder="Digite sua senha" required>
+        <!-- Coluna 2 -->
+        <div id="coluna2" class="conteudo">
+            <h3>Conteúdo da Coluna 2</h3>
+            <p>Bem-vindo à Coluna 2.</p>
+        </div>
 
-            <div class="buttons">
-                <button type="submit">Entrar</button>
-            </div>
-            <div id="message"></div>
-        </form>
+        <!-- Coluna 3 -->
+        <div id="coluna3" class="conteudo" style="display: none;">
+            <h3>Conteúdo da Coluna 3</h3>
+            <p>Bem-vindo à Coluna 3.</p>
+        </div>
     </div>
 
     <script src="script.js"></script>
