@@ -3,15 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>PHSystem Tecnologia</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Bem-vindo a PHSystem Tecnologia</h1>
-        <a href="Sobre.html">Sobre</a>
-      <a href="Sistema.html">Sistemas</a>
-      <a href="Visao.html">Visão</a>
-    </div>
+        <!-- Coluna 1: Menu com Logo -->
+        <div class="menu">
+            <div class="logo">
+                <img src="LogoPH.png" alt="Logomarca" class="logo-img">
+            </div>
+        
+            <h3>Opções de Menus</h3>
+            <ul>
+                <li><a href="sistema.html" onclick="mostrarPagina('sistema')">Sistemas</a></li>
+                <li><a href="parceiros.html" onclick="mostrarPagina('parceiros')">Parceiros</a></li>
+                <li><a href="contato.html" onclick="mostrarPagina('contato')">Contatos</a></li>
+                <li><a href="sobre.html" onclick="mostrarPagina('sobre')">Sobre</a></li>
+            </ul>
+        </div>
+        <!-- Coluna 2 e Coluna 3 (Conteúdo) -->
+        <div class="conteudo">
+            <!-- Página 1 -->
+            <div id="pagina1" class="pagina">
+                <div class="coluna">
+                    <h3>Geral</h3>
+                    <p>Geral</p>
+                                        <p>LEGALIZAR SOLUÇÕES</p>
+                                        <p>CERA - CENTRO EDUCACIONAL RECANTO DOS ANJOS</p>
+                                        <p>OFICINA DO FRANK - ALVORADA</p>
+                    <p>Em Desenvolvimento . . .</p>
+                </div>
 </body>
 </html>
