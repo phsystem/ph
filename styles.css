@@ -21,6 +21,14 @@ body {
     border-right: 1px solid #ccc;
 }
 
+.logo {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    height: 50%;
+  width: 50%;
+}
 .conteudo {
     flex: 3;
     display: flex;
